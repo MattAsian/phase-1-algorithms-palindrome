@@ -1,9 +1,15 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  let wordLower = word.toLowerCase();
+  let wordAr = wordLower.split('').reverse().join('');
+  return wordAr === wordLower;
 }
 
 /* 
-  Add your pseudocode here
+  Add your pseudocodea here
+  1. break down palindromes into arrays
+  2. flip
+  3. put back together array
+  4. return array
 */
 
 /*
